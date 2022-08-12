@@ -1,0 +1,46 @@
+body{
+    position: relative;
+    padding-bottom: 0em ;
+    min-height: 100vh;
+    margin: 0px auto;
+}
+table{
+    color:#011640;
+    background-color: #F2DCD8;
+    font-family: "Gill Sans",Helvetica, Verdana;
+}
+
+.frase{
+    font-style: italic;
+    font-size: 20px;
+}
+.datos-personales{
+    width: 30%; 
+    background-color:grey;
+    text-align: center;
+}
+
+.detalles{
+    width:70%; 
+    padding-left: 2%;
+    
+}
+
+.habilidades-intereses{
+    width:40%; 
+    border-collapse: separate; 
+    border-spacing: 5px;
+}
+
+img{
+    width: 40%;
+    height: 40%;
+}
+
+.tit{
+    font-weight: bolder;
+}
+
+li ul li{
+    font-weight: lighter;
+}
