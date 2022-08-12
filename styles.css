@@ -3,26 +3,36 @@ body{
     padding-bottom: 0em ;
     min-height: 100vh;
     margin: 0px auto;
+    
+    
 }
 table{
     color:#011640;
     background-color: #F2DCD8;
     font-family: "Gill Sans",Helvetica, Verdana;
+   
 }
 
 .frase{
     font-style: italic;
-    font-size: 20px;
+    font-size: 1.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 .datos-personales{
     width: 30%; 
     background-color:grey;
     text-align: center;
+    margin:0em;
+   
 }
 
 .detalles{
     width:70%; 
     padding-left: 2%;
+    
+    padding-bottom: 1.5%;
+  padding-top: 1.5%;
     
 }
 
@@ -44,3 +54,27 @@ img{
 li ul li{
     font-weight: lighter;
 }
+
+/* ------media queries -------*/
+
+@media screen and (max-width: 900px) {
+    .frase{
+        
+        font-size: 1em;
+        
+    }
+    
+  }
+
+  @media screen and (max-width: 750px) {
+    body{
+        font-size: 0.8em;
+    }
+    
+  }
+
+@media screen and (max-width: 600px) {
+    body{
+        font-size: 0.5em;
+    }
+  }
