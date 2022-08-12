@@ -70,6 +70,9 @@ li ul li{
     body{
         font-size: 0.7em;
     }
+    .habilidades-intereses{
+        border-spacing: 1em;
+    }
     
   }
 
@@ -77,4 +80,8 @@ li ul li{
     body{
         font-size: 0.6em;
     }
+    .habilidades-intereses{
+        border-spacing: 2em;
+    }
+    
   }
