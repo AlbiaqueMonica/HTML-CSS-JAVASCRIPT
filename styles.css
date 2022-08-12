@@ -16,8 +16,9 @@ table{
 .frase{
     font-style: italic;
     font-size: 1.5em;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    padding: 1em;
+    
+    
 }
 .datos-personales{
     width: 30%; 
@@ -45,6 +46,7 @@ table{
 img{
     width: 40%;
     height: 40%;
+    border-radius: 5%;
 }
 
 .tit{
@@ -63,6 +65,10 @@ li ul li{
         font-size: 0.8em;
         
     }
+    .habilidades-intereses{
+        border-spacing: 1.5em;
+    }
+    
     
   }
 
